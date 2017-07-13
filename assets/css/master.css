@@ -1,0 +1,40 @@
+
+#banner{
+  background-image: url("../img/sea.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.95;
+  height: 100vh;
+}
+
+.name{
+  top:22vh;
+  position: relative;
+}
+
+#nav{
+  position: relative;
+  top: 1vh;
+  text-align: right;
+}
+
+#nav li{
+position: relative;
+display: inline-block;
+list-style-type: none;
+margin-right: 2em;
+}
+
+#nav li a{
+  color: white;
+  letter-spacing: 1px;
+  font-size: 0.8em;
+}
+
+hr{
+  width: 8%;
+}
+.img-portfolio{
+  height: 250px !important;
+}
