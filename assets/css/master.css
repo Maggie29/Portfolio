@@ -9,7 +9,7 @@
 }
 
 .name{
-  top:22vh;
+  top:23vh;
   position: relative;
 }
 
@@ -31,9 +31,26 @@ margin-right: 2em;
   letter-spacing: 1px;
   font-size: 0.8em;
 }
+#about{
+  height: 70vh;
+}
+#portfolio{
+  background-color:
+}
 
 hr{
   width: 8%;
+}
+.box-maggie{
+  position: relative;
+}
+.box-maggie img{
+  position: absolute;
+  transition: opacity .5s;
+  cursor: pointer;
+}
+.box-maggie img.top:hover{
+  opacity: 0;
 }
 .img-portfolio{
   height: 250px !important;
