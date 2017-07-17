@@ -1,4 +1,9 @@
-
+.padding{
+  padding: 5vh 0 5vh 0;
+}
+.btn{
+  background-color: #245e77;
+}
 #banner{
   background-image: url("../img/sea.jpg");
   background-repeat: no-repeat;
@@ -9,7 +14,7 @@
 }
 
 .name{
-  top:23vh;
+  top:20vh;
   position: relative;
 }
 
@@ -32,7 +37,9 @@ margin-right: 2em;
   font-size: 0.8em;
 }
 #about{
-  height: 70vh;
+  background-color: #eff1f5;
+  margin: 0;
+  top: 0;
 }
 #portfolio{
   background-color:
@@ -54,4 +61,17 @@ hr{
 }
 .img-portfolio{
   height: 250px !important;
+}
+#contact{
+  background-color: #37474f;
+  height: 60vh;
+}
+footer{
+  background-color: #263238;
+  height: 9vh;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

@@ -11,13 +11,15 @@
   </head>
   <body>
     <section id="banner" class="parallax-container">
-        <div class="nav">
-          <ul class="" id="nav">
-           <li><a href="#banner">HOME</a></li>
-           <li><a href="#about">ACERCA DE MI</a></li>
-           <li><a href="#portfolio">PORTAFOLIO</a></li>
-           <li><a href="#contact">CONTACTO</a></li>
-          </ul>
+        <div class="row">
+          <div class="col s12">
+            <ul id="nav">
+             <li><a href="#banner">HOME</a></li>
+             <li><a href="#about">ACERCA DE MI</a></li>
+             <li><a href="#portfolio">PORTAFOLIO</a></li>
+             <li><a href="#contact">CONTACTO</a></li>
+            </ul>
+          </div>
         </div>
       <div class="banner-container valing-wrapper white-text center responsive-img">
         <div class="row name">
@@ -26,45 +28,59 @@
         </div>
       </div>
     </section>
-    <section id="about">
+    <section id="about" class="section">
       <div class="container padding">
-      			<div class="row center">
-      				<h4 class=""><small>ACERCA DE MI</small></h4>
-      				<hr>
-      			</div>
-      			<div class="row">
-      				<div class="col s12 m4 l3 margin">
-      					<p class="center"></p><br>
-      					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.<br><br>
-                </p>
-      				</div>
-      				<div class="col s12 m4 l4 offset-l1 margin">
-						      <div class="card-content white-text box-maggie">
-                    <img src="assets/img/perfil2.jpg" alt="magali-zambrano" class="responsive-img icon-woman margin">
-                    <img src="assets/img/perfilportfolio.jpg" alt="magali-zambrano" class="top responsive-img icon-woman margin">
-                  </div>
-      				</div>
-      				<div class="col s12 m4 l3 offset-l1 margin">
-                <p class="center"></p><br>
-      					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.<br><br>
-                </p>
-      				</div>
-      			</div>
+      	<div class="row center">
+      		<h4 class=""><small>ACERCA DE MI</small></h4>
+      		<hr>
+      	</div>
+      	<div class="row">
+      		<div class="col s12 m4 margin">
+      			<p class="center">PERFIL</p><br>
+      			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dlabore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              <br><br>
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.
+            </p>
+            <div class="center">
+              <a class="waves-effect waves-light btn">Ver CV</a>
+            </div>
       		</div>
+        	<div class="col s12 m4">
+            <div class=""><br><br>
+              <div class="box-maggie">
+                 <img src="assets/img/perfil2.jpg" alt="magali-zambrano" class="circle responsive-img icon-woman margin">
+                 <img src="assets/img/perfilportfolio.jpg" alt="magali-zambrano" class="circle top responsive-img icon-woman margin">
+              </div>
+            </div>
+        	</div>
+      		<div class="col s12 m4">
+            <p class="center">INTERESES</p><br>
+      			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dlabore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                <br><br>
+                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.
+            </p>
+            <div class="center">
+              <a class="waves-effect waves-light btn">LinkedIn</a>
+            </div>
+      		</div>
+      	</div>
+      </div>
     </section>
     <section id="portfolio">
-			<div class="container">
+			<div class="container padding">
 				<div class="row center">
 					<h4 class=""><small>PORTAFOLIO</small></h4>
 					<hr>
 				</div>
 				<div class="row">
 						<div class="material-placeholder">
-              <img class="materialboxed img-portfolio col s12 m6 l4 responsive-img initialized" src="assets/img/lyft.jpg"></div>
+              <img class="materialboxed img-portfolio col s12 m4 l4 responsive-img initialized" src="assets/img/lyft.jpg"></div>
 						<div class="material-placeholder">
-              <img class="materialboxed img-portfolio col s12 m6 l4 responsive-img initialized" src="assets/img/conduce.jpg"></div>
+              <img class="materialboxed img-portfolio col s12 m4 l4 responsive-img initialized" src="assets/img/conduce.jpg"></div>
 						<div class="material-placeholder">
-              <img class="materialboxed img-portfolio col s12 m6 l4 responsive-img initialized" src="assets/img/turktv.png"></div>
+              <img class="materialboxed img-portfolio col s12 m4 l4 responsive-img initialized" src="assets/img/turktv.png"></div>
 				</div>
         <div class="row">
           <div class="col s12 m7 l10 offset-l1">
@@ -85,14 +101,34 @@
         </div>
 			</div>
      </section>
-    <section id="contact">
-      <div class="container">
+    <section id="contact" class="white-text">
+      <div class="container padding">
         <div class="row center">
 					<h4 class=""><small>CONTACTO</small></h4>
 					<hr>
 				</div>
+        <div class="row">
+          <div class="col s6 m6 l4">
+
+          </div>
+          <div class="col s6 m6 l4 offset-l1">
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 l12">
+            <a class="white-text" href="#"><span></span></a>
+            <a class="white-text" href="#"><span></span></a>
+            <a class="white-text" href="#"><span></span></a>
+          </div>
+        </div>
       </div>
     </section>
+    <footer>
+      <div class="flex white-text">
+            <p><small>Copyright © Magali Zambrano Neri  2017</small></p>
+     </div>
+    </footer>
     <script type="text/javascript"src="assets/js/jquery-3.2.1.js"></script>
     <script type="text/javascript"src="assets/js/app.js"></script>
   </body>
