@@ -1,3 +1,10 @@
+*{
+  box-sizing: border-box;
+}
+body {
+	margin: 0;
+  padding: 0;
+}
 .padding{
   padding: 5vh 0 5vh 0;
 }
@@ -67,7 +74,8 @@ hr{
 }
 #contact{
   background-color: #37474f;
-  height: 60vh;
+  height: 55vh;
+  opacity: 0.9;
 }
 .network{
   letter-spacing: 1.5em;
