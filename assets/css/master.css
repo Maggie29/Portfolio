@@ -48,11 +48,11 @@ margin-right: 2em;
 
 #nav li a{
   color: white;
-  letter-spacing: .8px;
+  letter-spacing: 1px;
   font-size: 0.8em;
 }
 #about{
-  height: 70vh;
+  height: 100%;
 
 }
 #portfolio{
@@ -78,7 +78,7 @@ hr{
 }
 #contact{
   background-color: #f6f6f6;
-  height: 54vh;
+  height: 49vh;
   }
 .network{
   letter-spacing: 1.5em;
@@ -86,6 +86,7 @@ hr{
 footer{
   height: 7vh;
   position: relative;
+  width: 100%;
 }
 
 @media only screen and (max-width: 500px) {
@@ -106,13 +107,14 @@ footer{
 }
 @media only screen and (max-width: 500px) {
   #contact{
-    height: 68vh;
-    top: 63vh;
+    height: 70vh;
+    top: 70vh;
     position: relative;
     }
 }
 @media only screen and (max-width: 500px) {
 footer{
-  top:77vh;
+  top:70vh;
+  width: 100%;
     }
 }
